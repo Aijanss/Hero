@@ -1,9 +1,9 @@
 package com.company;
 
 public class Boss2 {
-    int health;
-    int Damage;
-    String Defence;
+    private int health;
+    private int Damage;
+    private String Defence;
 
 
     public int getHealth() {
@@ -32,7 +32,7 @@ public class Boss2 {
 
     public Boss2(int health, int damage, String defence) {
         this.health = health;
-       this. Damage = damage;
+        this.Damage = damage;
         this.Defence = defence;
     }
 }
